@@ -1,0 +1,119 @@
+Code:
+file 1
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY First Web Site</title>
+</head>
+<body>
+
+    <h1>Welcome To Ltce</h1>
+
+    
+    <h2>Hyperlink</h2>
+    <a href="index2.html">Visit Next Page</a>
+
+    <hr>
+
+    
+    <h2>Image</h2>
+    <img src="images.jpeg" alt="Sample Image">
+
+    <hr>
+      In Order list Student Name:
+	<ol type="A">
+	<li>Sudhanshi</li>
+	<li>Nooruddin </li>
+	</ol>
+	In Unorder List Student Name:
+	<ul>
+	<li>Sudhanshi</li>
+	<li>Nooruddin</li>
+	</ul>
+ 	
+   
+    <h2>Table</h2>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nooruddin</td>
+            <td>Data Science</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sudhanshi</td>
+            <td>AIML</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    
+    <h2>Form</h2>
+    <form>
+        Name:
+        <input type="text" name="name"><br><br>
+
+        Email:
+        <input type="email" name="email"><br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+        
+        Student ID:
+        <input type="text" name="text"><br><br>
+
+        Hobbies:
+        <input type="checkbox" name="hobby"> Reading
+        <input type="checkbox" name="hobby"> Sports
+        <br><br>
+	
+    </form>
+    <a href="index2.html"><button>Submit</button></a>
+
+    <hr>
+
+   
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="../demon_slayer_door_open.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+    <h2>Video</h2>
+    <video width="320" height="240" controls>
+        <source src="../LTCE_Mumbai.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <hr>
+
+    
+    <h2>Frame (Iframe)</h2>
+    <iframe src="https://www.wikipedia.org" width="500" height="300">
+    </iframe>
+
+</body>
+</html>
+
+File 2:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Elements Example</title>
+</head>
+<body>
+
+    <h1>Thank You Visit Our Page!!!</h1>
+
+    
+
+</body>
+</html>
